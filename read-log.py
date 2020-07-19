@@ -1,3 +1,4 @@
+# pylint: disable=E0401
 import re
 import pandas as pd
 
