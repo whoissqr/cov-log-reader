@@ -1,24 +1,18 @@
 import re
 import pandas as pd
 
-cov_log = r"D:\SNPS\ws\python-cloud\test-lark\idir\build-log.txt"
+cov_log = r"D:\SNPS\Python_ex\cov-log-reader\idir\build-log.txt"
+str_to_search = ["cov-build ", "Dumping from hostname : ", "Platform info:", "cov-build command:"];
+search_index=0;
 
 with open(cov_log,'r') as file:
     line = file.readline()
     while line.strip():
-        m = re.search('Dumping from hostname : (.+?)\n', line);
+        m = re.search(str_to_search[search_index]+'(.+?)\n', line);
         if m:
-            print("Host Name: " +m.group(1))
-
-        m = re.search("Platform info: (.+?)\n", line);
-        if m:
-            print("OS:        " + m.group(1))
-
-        m= re.search("cov-build command:(.+?)\n", line);
-
-        if m:
-            print("cov-build CMD: "+ m.group(1))
-
+            print(m.group(1).strip())
+            search_index=search_index+1;
         line = file.readline()
+        if(search_index==len(str_to_search)): break;
         #print(line)
 
