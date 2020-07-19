@@ -12,7 +12,7 @@ str_to_search_dict = OrderedDict([
     ("Configuration read from: command", "none"), \
     ("Configuration read from:", "none"), \
     ("Build time (cov-build overall):", "none"), \
-    ("compilation units", "none") \
+    ("compilation units", "") \
     ]);
 
 
