@@ -1,33 +1,37 @@
 import re
+from collections import OrderedDict
 #import pandas as pd
 
 cov_log_default = r"D:\SNPS\Python_ex\cov-log-reader\idir\build-log.txt"
 
-str_to_search = ["cov-build ", \
-    "Dumping from hostname : ", \
-    "Platform info:", \
-    "cov-build command:", \
-    "Configuration read from: command", \
-    "Configuration read from:", \
-    "Build time (cov-build overall):", \
-    "compilation units"];
+str_to_search_dict = OrderedDict([
+    ("cov-build ", "none"), \
+    ("Dumping from hostname : ", "none"),  \
+    ("Platform info:", "none"), \
+    ("cov-build command:", "none"), \
+    ("Configuration read from: command", "none"), \
+    ("Configuration read from:", "none"), \
+    ("Build time (cov-build overall):", "none"), \
+    ("compilation units", "none") \
+    ]);
 
 
 def read_log_parse_1(cov_log):
-    search_index=0;
+    items = iter(str_to_search_dict) 
+    key_to_search= next(items)
     with open(cov_log,'r') as file:
         line = file.readline()
         while line.strip():
-            
-            m = re.search(re.escape(str_to_search[search_index])+'(.+?)\n', line);
+            m = re.search(re.escape(key_to_search)+'(.+?)\n', line);
             if m:
-                if(search_index<7):
-                    print(m.group(1).strip())
-                    search_index=search_index+1;
+                if(key_to_search!="compilation units"):
+                    #print(m.group(1).strip())
+                    str_to_search_dict[key_to_search]=m.group(1).strip();
+                    key_to_search= next(items)
                 else:
                     print(line);
+                    str_to_search_dict[key_to_search]=str_to_search_dict[key_to_search]+ m.group(1).strip();
             line = file.readline()
-            if(search_index==len(str_to_search)): break;
-            #print(line)
+    return str_to_search_dict;
 
 read_log_parse_1(cov_log_default);
