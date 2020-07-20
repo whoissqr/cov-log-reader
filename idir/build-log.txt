@@ -1,0 +1,368 @@
+2020-04-23T12:34:06.183274Z|cov-build|1712|info|> cov-build 2020.03 (build 7a99558b96 p-surrey-push-975)
+2020-04-23T12:34:06.183644Z|cov-build|1712|info|> Coverity Build Capture (64-bit) version 2020.03 on Darwin 18.7.0 x86_64
+2020-04-23T12:34:06.183644Z|cov-build|1712|info|> Internal version numbers: 7a99558b96 p-surrey-push-975
+2020-04-23T12:34:06.183644Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.183766Z|cov-build|1712|info|> Dumping from hostname : chaoshi-mac
+2020-04-23T12:34:06.183766Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> Platform info:
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> Sysname = Darwin
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> Release = 18.7.0
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> Machine = x86_64
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.183873Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.184046Z|cov-build|1712|info|> cov-build command: /Applications/cov-analysis-macos-2020.03/bin/cov-build --dir /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir -c /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/coverity_config.xml --fs-capture-list /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/config-file-list-838640258 --no-security-da --no-command 
+2020-04-23T12:34:06.184080Z|cov-build|1712|info|> cov-build expanded command: /Applications/cov-analysis-macos-2020.03/bin/cov-build --dir /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir -c /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/coverity_config.xml --fs-capture-list /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/config-file-list-838640258 --no-security-da --no-command 
+2020-04-23T12:34:06.189517Z|cov-build|1712|info|> build command: 
+2020-04-23T12:34:06.189652Z|cov-build|1712|info|> thunk command: /var/folders/11/hzdb55d55m33ddcl5ws806jh463xnc/T/cov-chaoshi/ada517bf6bfcdec58330fc9281d08a1e/sh /Applications/cov-analysis-macos-2020.03/bin/cov-internal-thunk.sh
+2020-04-23T12:34:06.189652Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.189857Z|cov-build|1712|info|> Set UseSharedCompilation to false.
+2020-04-23T12:34:06.189903Z|cov-build|1712|info|> Set COVERITY_BIN to /Applications/cov-analysis-macos-2020.03/bin
+2020-04-23T12:34:06.189969Z|cov-build|1712|info|> Set COVERITY_SITE_CC to 
+2020-04-23T12:34:06.190004Z|cov-build|1712|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to 
+2020-04-23T12:34:06.190103Z|cov-build|1712|info|> Set COVERITY_TEMP to /var/folders/11/hzdb55d55m33ddcl5ws806jh463xnc/T/cov-chaoshi/ada517bf6bfcdec58330fc9281d08a1e
+2020-04-23T12:34:06.190167Z|cov-build|1712|info|> Set COVERITY_COMMON_TEMP to /var/folders/11/hzdb55d55m33ddcl5ws806jh463xnc/T
+2020-04-23T12:34:06.190212Z|cov-build|1712|info|> Set COVERITY_IDIR to /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir
+2020-04-23T12:34:06.190267Z|cov-build|1712|info|> Set COVERITY_OUTPUT to /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/build-log.txt
+2020-04-23T12:34:06.190865Z|cov-build|1712|info|> Set COVERITY_LOG to /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/build-log.txt
+2020-04-23T12:34:06.190955Z|cov-build|1712|info|> Set COVERITY_OUTPUT_ENCODING to US-ASCII
+2020-04-23T12:34:06.190986Z|cov-build|1712|info|> Set COVERITY_SYSTEM_ENCODING to US-ASCII
+2020-04-23T12:34:06.191018Z|cov-build|1712|info|> Set COVERITY_EMIT to /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit
+2020-04-23T12:34:06.191058Z|cov-build|1712|info|> Set COVERITY_EMIT to /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit
+2020-04-23T12:34:06.191102Z|cov-build|1712|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2020-04-23T12:34:06.191220Z|cov-build|1712|info|> Set COVERITY_JAVA_CONFIG to cov-filesystem-capture-javafs-0#TEMPLATE###
+2020-04-23T12:34:06.191264Z|cov-build|1712|info|> Set COVERITY_IS_COMPILER to 0
+2020-04-23T12:34:06.191288Z|cov-build|1712|info|> Set COVERITY_TOP_PROCESS to 0
+2020-04-23T12:34:06.191309Z|cov-build|1712|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2020-04-23T12:34:06.191329Z|cov-build|1712|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2020-04-23T12:34:06.191369Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191369Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191369Z|cov-build|1712|info|> Dumping configuration:
+2020-04-23T12:34:06.191369Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191531Z|cov-build|1712|info|> User/default configuration:
+2020-04-23T12:34:06.191531Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|> Configuration read from: command-line
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/coverity_config.xml
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|>     Node: prevent
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|>       Node: dir Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir
+2020-04-23T12:34:06.191568Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-javascript-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-html-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-typescript-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-jsx-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-vue-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-capture-config-files-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-php-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-python-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-ruby-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-javafs-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-jsp-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-android-config-0/coverity_config.xml
+2020-04-23T12:34:06.191703Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-javascript-config-0/coverity_config.xml
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: comp_translator Value: javascript
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: comp_generic Value: javascript
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib|map)$
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|>   Node: md5 Value: 5dc7fe28a5d7a345225ec3edabbf5701
+2020-04-23T12:34:06.191986Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-html-config-0/coverity_config.xml
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: comp_translator Value: html
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: comp_generic Value: javascript
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|>   Node: md5 Value: 874e134728d1412d745d699feb38e141
+2020-04-23T12:34:06.192295Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-typescript-config-0/coverity_config.xml
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-typescript-0
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: comp_translator Value: typescript
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: comp_generic Value: typescript
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*(\.ts(x?)|tsconfig.json)$
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: id Value: typescript-cov-filesystem-capture-typescript-0-.*
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|>   Node: md5 Value: 0fbcd451629a877b0945511269f745bd
+2020-04-23T12:34:06.192615Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-jsx-config-0/coverity_config.xml
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: comp_translator Value: jsx
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: comp_generic Value: javascript
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.jsx$
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|>   Node: md5 Value: 6ef7db223c129acd408eed304126e3a1
+2020-04-23T12:34:06.192915Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-vue-config-0/coverity_config.xml
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-vue-0
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: comp_translator Value: vue
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: comp_generic Value: javascript
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.vue$
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: id Value: vue-cov-filesystem-capture-vue-0-.*
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|>   Node: md5 Value: e2e0d3714ab927a7bdeebe5c48dde342
+2020-04-23T12:34:06.193241Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-capture-config-files-config-0/coverity_config.xml
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: comp_translator Value: capture-config-files
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: comp_generic Value: capture_config_files
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: file_include_pattern Value: $capture-config-files$
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|>   Node: md5 Value: 517edfec29af9c5a73243432c980d2e7
+2020-04-23T12:34:06.193554Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-php-config-0/coverity_config.xml
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: comp_translator Value: php
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: comp_generic Value: php
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.ph(p|p3|p4|p5|p7|tml)$
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|>   Node: md5 Value: 6db33a0a68d7f8c9b0f5085b9afaab3b
+2020-04-23T12:34:06.193874Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-python-config-0/coverity_config.xml
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: comp_translator Value: python
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: comp_generic Value: python
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.py$
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2020-04-23T12:34:06.194131Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-ruby-config-0/coverity_config.xml
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: comp_translator Value: ruby
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: comp_generic Value: ruby
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*(\.rb|Gemfile)$
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|>   Node: md5 Value: 9a95acc499de60467aeb7e3b29315f90
+2020-04-23T12:34:06.194416Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-javafs-config-0/coverity_config.xml
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-javafs-0
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: comp_translator Value: javafs
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: comp_lang Value: Static Java
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: comp_generic Value: javafs
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.java$
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: id Value: javafs-cov-filesystem-capture-javafs-0-.*
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|>   Node: md5 Value: fd204989e6d3c179e5066e99a3d19278
+2020-04-23T12:34:06.194695Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-jsp-config-0/coverity_config.xml
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: comp_translator Value: jsp
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: comp_generic Value: java
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2020-04-23T12:34:06.195043Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/point-and-scan/nonbuild-compiler-configs/template-android-config-0/coverity_config.xml
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: template_compiler Value: true
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: comp_translator Value: android
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: comp_generic Value: java
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml)$
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|>   Node: md5 Value: 2038ccdce64ccbc0d91a6d98e3ada876
+2020-04-23T12:34:06.195356Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.200524Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.200524Z|cov-build|1712|info|> Cached template configuration instances:
+2020-04-23T12:34:06.200524Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit/chaoshi-mac/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|>     Node: include Value: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit/chaoshi-mac/config/86c0393db2dfc13f34bf36599b00f373/capture-config-files-config-0/coverity_config.xml
+2020-04-23T12:34:06.200600Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|> Configuration read from: /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit/chaoshi-mac/config/86c0393db2dfc13f34bf36599b00f373/capture-config-files-config-0/coverity_config.xml
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|> Node: coverity
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>   Node: cit_version Value: 1
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>   Node: config
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>     Node: build
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>       Node: compiler
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_translator Value: capture-config-files
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_lang Value: Non Compiled
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_desc Value: Configuration Filesystem Capture
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: comp_generic Value: capture_config_files
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: is_compiler Value: true
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: is_linker Value: false
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>       Node: options
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: template_config_option_id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: prepend_arg Value: --language=capture-config-files
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: split
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>           Node: options
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: expand
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>           Node: options
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>             Node: intern_split_response_file_fn Value: line_split
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>         Node: begin_command_line_config
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|>   Node: md5 Value: ba960caa472abdc5ce929e6a7a0ea22d
+2020-04-23T12:34:06.200710Z|cov-build|1712|info|> 
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> [STATUS] Running filesystem capture matching against 7 listed files...
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> [STATUS] Emitting 7 files from filesystem capture
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-javascript-config-0 (^.*\.(js|xsjs|xsjslib|map)$ -> cov-filesystem-capture-javascript-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-html-config-0 (^.*\.(html|htm)$ -> cov-filesystem-capture-html-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-typescript-config-0 (^.*(\.ts(x?)|tsconfig.json)$ -> cov-filesystem-capture-typescript-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-jsx-config-0 (^.*\.jsx$ -> cov-filesystem-capture-jsx-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-vue-config-0 (^.*\.vue$ -> cov-filesystem-capture-vue-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> BEGIN source files (7) for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/README.md
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/bitbucket-pipelines.yml
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/polaris.yml
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/sonar-project.properties
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/src/main/resources/application.properties
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/classes/application.properties
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/maven-archiver/pom.properties
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> END source files for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+Using cached template compiler configuration instance /Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/emit/chaoshi-mac/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/README.md" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/bitbucket-pipelines.yml" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/polaris.yml" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/sonar-project.properties" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/src/main/resources/application.properties" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/classes/application.properties" "/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/maven-archiver/pom.properties"
+[STATUS] Compiling 7 Non compiled source files.
+[STATUS] Compiling Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/README.md, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/bitbucket-pipelines.yml, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/polaris.yml, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/sonar-project.properties, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/src/main/resources/application.properties, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/classes/application.properties, Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/maven-archiver/pom.properties
+/Applications/cov-analysis-macos-2020.03/bin/cov-internal-emit-misc --dir=/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir --language=capture-config-files Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/README.md Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/bitbucket-pipelines.yml Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/polaris.yml Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/sonar-project.properties Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/src/main/resources/application.properties Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/classes/application.properties Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/target/maven-archiver/pom.properties 
+Command line with response file: /Applications/cov-analysis-macos-2020.03/bin/cov-internal-emit-misc @utf8@/Users/chaoshi/Documents/demo/workspace/proj-point-n-click/coverity-sq-integration/idir/tmp/cov-internal-emit-misc-a65be260a49b7e91d1ff91ceef5ef030-0.cmd_args.txt
+Coverity Internal Misc Emit version 2020.03 on Darwin 18.7.0 x86_64
+Internal version numbers: 7a99558b96 p-surrey-push-975
+
+cov-internal-emit-misc took 0s
+
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> cov-translate exited with code 0
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-php-config-0 (^.*\.ph(p|p3|p4|p5|p7|tml)$ -> cov-filesystem-capture-php-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-python-config-0 (^.*\.py$ -> cov-filesystem-capture-python-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-ruby-config-0 (^.*(\.rb|Gemfile)$ -> cov-filesystem-capture-ruby-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-javafs-config-0 (^.*\.java$ -> cov-filesystem-capture-javafs-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-jsp-config-0 (^.*\.(jsp|jspx)$ -> cov-filesystem-capture-jsp-0)
+2020-04-23T12:34:06.201176Z|cov-build|1712|info|> No source files for template-android-config-0 (^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml)$ -> cov-filesystem-capture-android-0)
+2020-04-23T12:34:07.539590Z|cov-build|1712|info|> 
+2020-04-23T12:34:07.539590Z|cov-build|1712|info|> Build time (cov-build overall): 00:00:01.402110
+
+2020-04-23T12:34:07.539590Z|cov-build|1712|info|> 
+2020-04-23T12:34:07.539590Z|cov-build|1712|info|> 
+2020-04-23T12:34:07.540211Z|cov-build|1712|info|> 
+2020-04-23T12:34:07.540211Z|cov-build|1712|info|> 9 Java compilation units (100%) are ready for analysis
+2020-04-23T12:34:07.540211Z|cov-build|1712|info|> The cov-build utility completed successfully.
